@@ -1,9 +1,7 @@
 // Задание 1 
 // Создайте функцию которая возводит переданное число в куб, необходимо вывести в консоль результат 2^3 степени + 3 ^ 3 степени
 
-const getCube = (num) => {
-    return Math.pow(num, 3);
-}
+const getCube = (num) => Math.pow(num, 3);
 
 console.log('Задание 1');
 let number = 2;
@@ -18,9 +16,7 @@ console.log(`${number} в кубе = ${getCube(number)}`);
 
 console.log('Задание 2');
 
-const nalog = (sal) => {
-    return sal * 0.87;
-}
+const nalog = (sal) => sal * 0.87;
 
 const salary = +prompt('Введите Вашу заработную плату:');
 if (isNaN(salary)) {
@@ -34,9 +30,7 @@ if (isNaN(salary)) {
 
 console.log('Задание 3');
 
-const maxNumber = (num1, num2, num3) => {
-    return Math.max(num1, num2, num3);
-}
+const maxNumber = (num1, num2, num3) => Math.max(num1, num2, num3);
 
 const number1 = +prompt('Введите первое число:');
 const number2 = +prompt('Введите второе число:');
